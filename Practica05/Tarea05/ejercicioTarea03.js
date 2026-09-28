@@ -84,6 +84,7 @@ simulador.question("Ingrese la opcion a realizar: ", (opc) => {
         default:
             console.log("Opción no válida"); //Si el usuario ingresa una opcion que no existe se le muestra este mensaje
             simulador.close();
+            break;
     }
 
 });

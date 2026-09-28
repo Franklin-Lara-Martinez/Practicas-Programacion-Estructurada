@@ -42,7 +42,9 @@ estudiante.question(
         break;
       default:
         nivelReconocido = false; // Si el usuario ingresa un nivel invalido la variable anteriormente declarada nivelReconocido como "true" se convierte "false".
-    }
+        estudiante.close();
+        break;
+      }
 
     //En la condicion como el usuario ingreso una opcion que es valida el valor de la variable "nivelReconocido = true" se le muestra el siguiente mensaje al usuario  
     if (nivelReconocido) {

@@ -48,6 +48,8 @@ sistema.question("Ingrese un tipo de tarjeta: ", (tarjeta) => { //Aquí el usuar
         break
     default:
      opcionValida = false;
+     sistema.close();
+     break;
    }
  
    //Si el usuario ingresó un tipo de tarjeta no válida, la variable opcionValida que era true pasa a false, si nos fijamos en el if usamos el operador "!" para que vuelva a ser true y se cumpla el if.

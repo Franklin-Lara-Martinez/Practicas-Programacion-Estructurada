@@ -37,6 +37,8 @@ figura.question(
         break;
       default: // Si el usuario ingresara un numero que no esta en la lista se le mostrara "Figura no reconocida" y asi cerrando el switch.
         nombreFigura = `Figura no reconocida`;
+        figura.close();
+        break;
     }
 
     //Mostramos el mensaje en pantalla.

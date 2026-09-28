@@ -52,7 +52,8 @@ expendedoraMaquina.question("Ingrese una opcion de bebida ", (expendedora) => {
             break;
         default:
             opcionReconocida = false; // Si el usuario ingresa una bebida invalido la variable anteriormente declarada opcionReconocida como "true" se convierte "false".
-
+            expendedoraMaquina.close();
+            break;
     }
 
      //En la condicion como el usuario ingreso una opcion que es valida el valor de la variable "opcionReconocida = true" se le muestra el siguiente mensaje al usuario  
