@@ -27,11 +27,11 @@ for (const producto of arreglo) {
 
 // Aquí guardo el resumen: cuántos productos hay y cuánto vale todo.
 const resumen = {
-    totalProductos: arreglo.length,
-    valorTotal: total
+    Productos: arreglo.length,
+    Total: total
 };
 
-// Pongo un título para que se vea bonito.
+//Mostramos al usuario un mensaje del resumen del inventario.
 console.log("\n=== RESUMEN INVENTARIO ===")
 
 // Recorro el resumen con for...in y muestro cada dato.
