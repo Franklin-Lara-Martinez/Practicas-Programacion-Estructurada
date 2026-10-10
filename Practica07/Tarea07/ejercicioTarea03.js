@@ -22,7 +22,7 @@ for (const producto of arreglo) {
     total += producto.precio * producto.cantidad;
     
     // Muestro el nombre y lo que vale ese producto.
-    console.log(`Producto ` + `:` + producto.nombre + `:` + ` Precio ` + (producto.precio * producto.cantidad));
+    console.log(`Producto ` + `:` + producto.nombre + `:` + ` Precio $` + (producto.precio * producto.cantidad));
 }
 
 // Aquí guardo el resumen: cuántos productos hay y cuánto vale todo.
